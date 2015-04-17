@@ -1,13 +1,13 @@
 {
-  "name": "Tournament",
+  "name": "Game",
   "base": "BaseModel",
   "idInjection": true,
   "properties": {
-    "name": {
-      "type": "string",
+    "eventDate": {
+      "type": "date",
       "required": true
     },
-    "hexColor": {
+    "location": {
       "type": "string"
     }
   },

@@ -1,5 +1,5 @@
 {
-  "name": "Tournament",
+  "name": "Team",
   "base": "BaseModel",
   "idInjection": true,
   "properties": {
@@ -7,7 +7,7 @@
       "type": "string",
       "required": true
     },
-    "hexColor": {
+    "logoFile": {
       "type": "string"
     }
   },

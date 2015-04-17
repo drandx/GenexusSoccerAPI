@@ -1,10 +1,10 @@
 {
-  "name": "Tournament",
+  "name": "TeamScore",
   "base": "BaseModel",
   "idInjection": true,
   "properties": {
-    "name": {
-      "type": "string",
+    "score": {
+      "type": "int",
       "required": true
     },
     "hexColor": {

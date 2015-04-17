@@ -1,0 +1,19 @@
+{
+  "name": "BaseModel",
+  "base": "PersistedModel",
+  "properties": {
+    "created": {
+      "type": "date",
+      "null": false,
+      "defaultFn": "now"
+    },
+    "modified": {
+      "type": "date",
+      "null": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
