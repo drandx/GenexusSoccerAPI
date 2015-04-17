@@ -9,7 +9,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "teams": {
+          "type": "hasMany",
+          "model": "Team",
+          "foreignKey": "teamId"
+      }
+    },
   "acls": [],
   "methods": []
 }

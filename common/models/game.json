@@ -12,7 +12,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+      "teamScores": {
+          "type": "hasMany",
+          "model": "TeamScore",
+          "foreignKey": "teamScoreId"
+      }
+    },
   "acls": [],
   "methods": []
 }
