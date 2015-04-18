@@ -1,7 +1,7 @@
 {
   "name": "Team",
   "base": "BaseModel",
-  "idInjection": true,
+  "idInjection": false,
   "properties": {
     "name": {
       "type": "string",
@@ -13,11 +13,11 @@
   },
   "validations": [],
   "relations": {
-      "group": {
-      "type": "belongsTo",
-      "model": "Group",
-      "foreignKey": "groupId"
-    }
+        "group": {
+          "type": "belongsTo",
+          "model": "Group",
+          "foreignKey": "groupId"
+        }
   },
   "acls": [],
   "methods": []

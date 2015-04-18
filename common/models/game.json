@@ -16,7 +16,7 @@
       "teamScores": {
           "type": "hasMany",
           "model": "TeamScore",
-          "foreignKey": "teamScoreId"
+          "foreignKey": "teamId"
       }
     },
   "acls": [],

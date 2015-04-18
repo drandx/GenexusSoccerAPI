@@ -16,7 +16,7 @@
       "groups": {
           "type": "hasMany",
           "model": "Group",
-          "foreignKey": "groupId"
+          "foreignKey": "tournamentId"
     }
   },
   "acls": [],

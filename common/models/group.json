@@ -13,7 +13,12 @@
     "teams": {
           "type": "hasMany",
           "model": "Team",
-          "foreignKey": "teamId"
+          "foreignKey": "groupId"
+      },
+    "tournament": {
+          "type": "belongsTo",
+          "model": "Tournament",
+          "foreignKey": "tournamentId"
       }
     },
   "acls": [],
