@@ -23,6 +23,28 @@ var teams = [
   {id:'553434a3b4926ba3077dte10', name: 'Cerro Porteño', logoFile: '77.gif'}
 ];
 
+var games = [
+  {id: '553434a3b4926ba3077dga01', eventDate: 'April 24, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01'},
+  {id: '553434a3b4926ba3077dga02', eventDate: 'April 24, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01'},
+  {id: '553434a3b4926ba3077dga03', eventDate: 'April 25, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01'},
+  {id: '553434a3b4926ba3077dga04', eventDate: 'April 25, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr07'},
+  {id: '553434a3b4926ba3077dga05', eventDate: 'April 26, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr07'},
+  {id: '553434a3b4926ba3077dga06', eventDate: 'May 01, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr07'},
+  {id: '553434a3b4926ba3077dga07', eventDate: 'May 01, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr08'},
+  {id: '553434a3b4926ba3077dga08', eventDate: 'May 05, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr08'},
+  {id: '553434a3b4926ba3077dga09', eventDate: 'May 05, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr08'},
+  {id: '553434a3b4926ba3077dga10', eventDate: 'June 21, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01'}
+];
+
+var gameParticipants = [
+  {isLocal: true, score: 0, gameId: '553434a3b4926ba3077dga01', teamId: '553434a3b4926ba3077dte01'},
+  {isLocal: false, score: 1, gameId: '553434a3b4926ba3077dga01', teamId: '553434a3b4926ba3077dte02'},
+  {isLocal: true, score: 3, gameId: '553434a3b4926ba3077dga02', teamId: '553434a3b4926ba3077dte04'},
+  {isLocal: false, score: 2, gameId: '553434a3b4926ba3077dga02', teamId: '553434a3b4926ba3077dte05'},
+  {isLocal: true, score: 2, gameId: '553434a3b4926ba3077dga03', teamId: '553434a3b4926ba3077dte10'},
+  {isLocal: false, score: 1, gameId: '553434a3b4926ba3077dga03', teamId: '553434a3b4926ba3077dte09'}
+]
+
 module.exports = function(app) {
   var dataSource = app.dataSources.db;
   
@@ -69,6 +91,38 @@ module.exports = function(app) {
           count--;
           if (count === 0) {
             console.log('done creating teams');
+          }
+      });
+    });
+  });
+
+  dataSource.automigrate('Game', function(err) {
+    if (err) throw err;
+    var Model = app.models.Game;
+    var count = games.length;
+    games.forEach(function(game) {
+        Model.create(game, function(er, result) {
+          if (er) return;
+          console.log('Record created: ', result);
+          count--;
+          if (count === 0) {
+            console.log('done creating games');
+          }
+      });
+    });
+  });
+
+  dataSource.automigrate('GameParticipant', function(err) {
+    if (err) throw err;
+    var Model = app.models.GameParticipant;
+    var count = games.length;
+    gameParticipants.forEach(function(gameParticipant) {
+        Model.create(gameParticipant, function(er, result) {
+          if (er) return;
+          console.log('Record created: ', result);
+          count--;
+          if (count === 0) {
+            console.log('done creating gameParticipants');
           }
       });
     });

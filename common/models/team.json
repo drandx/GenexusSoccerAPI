@@ -12,6 +12,11 @@
     }
   },
   "validations": [],
+  "gameParticipants": {
+          "type": "hasMany",
+          "model": "GameParticipant",
+          "foreignKey": "teamId"
+  },
   "acls": [],
   "methods": []
 }

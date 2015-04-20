@@ -6,22 +6,19 @@
     "eventDate": {
       "type": "date",
       "required": true
-    },
-    "location": {
-      "type": "string"
     }
   },
   "validations": [],
   "relations": {
-      "Group": {
+      "group": {
           "type": "belongsTo",
           "model": "Group",
           "foreignKey": "groupId"  
       },
-      "teamScores": {
+      "gameParticipant": {
           "type": "hasMany",
-          "model": "TeamScore",
-          "foreignKey": "teamId"
+          "model": "GameParticipant",
+          "foreignKey": "gameId"
       }
     },
   "acls": [],
