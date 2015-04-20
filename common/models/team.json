@@ -12,13 +12,6 @@
     }
   },
   "validations": [],
-  "relations": {
-        "group": {
-          "type": "belongsTo",
-          "model": "Group",
-          "foreignKey": "groupId"
-        }
-  },
   "acls": [],
   "methods": []
 }

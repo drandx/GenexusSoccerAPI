@@ -13,6 +13,11 @@
   },
   "validations": [],
   "relations": {
+      "Group": {
+          "type": "belongsTo",
+          "model": "Group",
+          "foreignKey": "groupId"  
+      },
       "teamScores": {
           "type": "hasMany",
           "model": "TeamScore",

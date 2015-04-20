@@ -10,6 +10,11 @@
   },
   "validations": [],
   "relations": {
+    "games": {
+          "type": "hasMany",
+          "model": "Game",
+          "foreignKey": "groupId"
+    },
     "teams": {
           "type": "hasMany",
           "model": "Team",
