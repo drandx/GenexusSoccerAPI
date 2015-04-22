@@ -42,19 +42,19 @@ var gameParticipants = [
   {isLocal: true, score: 3, gameId: '553434a3b4926ba3077dga02', teamId: '553434a3b4926ba3077dte04'},
   {isLocal: false, score: 2, gameId: '553434a3b4926ba3077dga02', teamId: '553434a3b4926ba3077dte05'},
   {isLocal: true, score: 2, gameId: '553434a3b4926ba3077dga03', teamId: '553434a3b4926ba3077dte10'},
-  {isLocal: false, score: 1, gameId: '553434a3b4926ba3077dga03', teamId: '553434a3b4926ba3077dte09'}
+  {isLocal: false, score: 1, gameId: '553434a3b4926ba3077dga03', teamId: '553434a3b4926ba3077dte09'},
   {isLocal: true, score: 0, gameId: '553434a3b4926ba3077dga04', teamId: '553434a3b4926ba3077dte05'},
-  {isLocal: false, score: 0, gameId: '553434a3b4926ba3077dga04', teamId: '553434a3b4926ba3077dte07'}
+  {isLocal: false, score: 0, gameId: '553434a3b4926ba3077dga04', teamId: '553434a3b4926ba3077dte07'},
   {isLocal: true, score: 3, gameId: '553434a3b4926ba3077dga05', teamId: '553434a3b4926ba3077dte01'},
-  {isLocal: false, score: 3, gameId: '553434a3b4926ba3077dga05', teamId: '553434a3b4926ba3077dte06'}
+  {isLocal: false, score: 3, gameId: '553434a3b4926ba3077dga05', teamId: '553434a3b4926ba3077dte06'},
   {isLocal: true, score: 5, gameId: '553434a3b4926ba3077dga06', teamId: '553434a3b4926ba3077dte03'},
-  {isLocal: false, score: 0, gameId: '553434a3b4926ba3077dga06', teamId: '553434a3b4926ba3077dte04'}
+  {isLocal: false, score: 0, gameId: '553434a3b4926ba3077dga06', teamId: '553434a3b4926ba3077dte04'},
   {isLocal: true, score: 2, gameId: '553434a3b4926ba3077dga07', teamId: '553434a3b4926ba3077dte09'},
-  {isLocal: false, score: 1, gameId: '553434a3b4926ba3077dga07', teamId: '553434a3b4926ba3077dte08'}
+  {isLocal: false, score: 1, gameId: '553434a3b4926ba3077dga07', teamId: '553434a3b4926ba3077dte08'},
   {isLocal: true, score: 1, gameId: '553434a3b4926ba3077dga08', teamId: '553434a3b4926ba3077dte10'},
-  {isLocal: false, score: 1, gameId: '553434a3b4926ba3077dga08', teamId: '553434a3b4926ba3077dte01'}
+  {isLocal: false, score: 1, gameId: '553434a3b4926ba3077dga08', teamId: '553434a3b4926ba3077dte01'},
   {isLocal: true, score: 2, gameId: '553434a3b4926ba3077dga09', teamId: '553434a3b4926ba3077dte05'},
-  {isLocal: false, score: 2, gameId: '553434a3b4926ba3077dga09', teamId: '553434a3b4926ba3077dte04'}
+  {isLocal: false, score: 2, gameId: '553434a3b4926ba3077dga09', teamId: '553434a3b4926ba3077dte04'},
   {isLocal: true, score: 0, gameId: '553434a3b4926ba3077dga10', teamId: '553434a3b4926ba3077dte02'},
   {isLocal: false, score: 1, gameId: '553434a3b4926ba3077dga10', teamId: '553434a3b4926ba3077dte01'}
 ]
