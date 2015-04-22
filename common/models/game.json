@@ -15,7 +15,7 @@
           "model": "Group",
           "foreignKey": "groupId"  
       },
-      "gameParticipant": {
+      "gameParticipants": {
           "type": "hasMany",
           "model": "GameParticipant",
           "foreignKey": "gameId"
