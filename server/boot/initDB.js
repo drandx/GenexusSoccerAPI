@@ -17,7 +17,7 @@ var teams = [
   {id:'553434a3b4926ba3077dte04', name: 'SL de A', logoFile: 'almagroicon.gif'},
   {id:'553434a3b4926ba3077dte05', name: 'Danubio FC', logoFile: 'danubioicon.gif'},
   {id:'553434a3b4926ba3077dte06', name: 'Racing', logoFile: 'racingicon.gif'},
-  {id:'553434a3b4926ba3077dte07', name: 'The Strongest', logoFile: 'strongesticon .gif'},
+  {id:'553434a3b4926ba3077dte07', name: 'The Strongest', logoFile: 'strongesticon.gif'},
   {id:'553434a3b4926ba3077dte08', name: 'Sao Paulo FC', logoFile: 'saupauloicon.gif'},
   {id:'553434a3b4926ba3077dte09', name: 'U FC', logoFile: 'ufcicon.gif'},
   {id:'553434a3b4926ba3077dte10', name: 'Cerro Porteño', logoFile: 'cerroicon.gif'}
