@@ -6,7 +6,7 @@ var tournaments = [
 
 var groups = [
   {id:'553434a3b4926ba3077dgr01', name: 'Gurpo 1', tournamentId: '553434a3b4926ba3077d7f01'},
-  {id:'553434a3b4926ba3077dgr07', name: 'Grupo 1', tournamentId: '553434a3b4926ba3077d7f02'},
+  {id:'553434a3b4926ba3077dgr07', name: 'Grupo 2', tournamentId: '553434a3b4926ba3077d7f02'},
   {id:'553434a3b4926ba3077dgr08', name: 'Grupo 1', tournamentId: '553434a3b4926ba3077d7f03'},
 ];
 
@@ -24,16 +24,16 @@ var teams = [
 ];
 
 var games = [
-  {id: '553434a3b4926ba3077dga01', eventDate: 'April 24, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01'},
-  {id: '553434a3b4926ba3077dga02', eventDate: 'April 24, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01'},
-  {id: '553434a3b4926ba3077dga03', eventDate: 'April 25, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01'},
-  {id: '553434a3b4926ba3077dga04', eventDate: 'April 25, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr07'},
-  {id: '553434a3b4926ba3077dga05', eventDate: 'April 26, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr07'},
-  {id: '553434a3b4926ba3077dga06', eventDate: 'May 01, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr07'},
-  {id: '553434a3b4926ba3077dga07', eventDate: 'May 01, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr08'},
-  {id: '553434a3b4926ba3077dga08', eventDate: 'May 05, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr08'},
-  {id: '553434a3b4926ba3077dga09', eventDate: 'May 05, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr08'},
-  {id: '553434a3b4926ba3077dga10', eventDate: 'June 21, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01'}
+  {id: '553434a3b4926ba3077dga01', eventDate: 'April 24, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01', gameNumber: 1},
+  {id: '553434a3b4926ba3077dga02', eventDate: 'April 24, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01', gameNumber: 1},
+  {id: '553434a3b4926ba3077dga03', eventDate: 'April 25, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01', gameNumber: 2},
+  {id: '553434a3b4926ba3077dga04', eventDate: 'April 25, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr07', gameNumber: 1},
+  {id: '553434a3b4926ba3077dga05', eventDate: 'April 26, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr07', gameNumber: 2},
+  {id: '553434a3b4926ba3077dga06', eventDate: 'May 01, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr07', gameNumber: 3},
+  {id: '553434a3b4926ba3077dga07', eventDate: 'May 01, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr08', gameNumber: 1},
+  {id: '553434a3b4926ba3077dga08', eventDate: 'May 05, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr08', gameNumber: 2},
+  {id: '553434a3b4926ba3077dga09', eventDate: 'May 05, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr08', gameNumber: 2},
+  {id: '553434a3b4926ba3077dga10', eventDate: 'June 21, 2015 05:00:00', groupId: '553434a3b4926ba3077dgr01', gameNumber: 1}
 ];
 
 var gameParticipants = [
