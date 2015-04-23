@@ -21,7 +21,7 @@ module.exports = function (Game) {
                     participantObjs.push(participantObj);
                 });
                 
-                var gameobj = {group: groupObj, tournament: tournamentObj, gameParticipants: participantObjs};
+                var gameobj = {id: game.id, eventDate: game.eventDate, group: groupObj, tournament: tournamentObj, gameParticipants: participantObjs};
                 
                 gameResults.push(gameobj);
                 gameFull.push(game);
