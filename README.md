@@ -4,7 +4,7 @@ This API is based on NodeJS using StrongLoop and MongoDB as data source. The mai
 # Requirements
   - NodeJS Installed
   - NodeJS Package Manager Installed (npm)
-  - Mongo DB Installed
+  - A server with Mongo DB running
 
 #Installation
   - npm install -g strongloop
@@ -14,5 +14,5 @@ This API is based on NodeJS using StrongLoop and MongoDB as data source. The mai
   - slc run
 
 #Using the API
-  - Web Explorer URL: <your ip address>:30000/explorer
-  - API URL to integrate with clients: <your ip address>:30000/api
+  - Web Explorer URL: "your ip address":30000/explorer
+  - API URL to integrate with clients: "your ip address":30000/api
